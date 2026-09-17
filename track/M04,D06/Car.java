@@ -8,13 +8,14 @@ class Car {
     void calculateMilage() {
         System.out.println("Calculating Milage...");
     }
+}
+
+class Main {
 
     public static void main(String[] args) {
         Car.convertKmintoMiles();
         Car nano = new Car();
         nano.calculateMilage();
 
-        Car bmw = new Car();
-        bmw.calculateMilage();
     }
 }
