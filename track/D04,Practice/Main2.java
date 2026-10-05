@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class Main1 {
+public class Main2 {
 
     public static void main(String[] args) {
         Map<Character, Integer> freq = new HashMap<>();
@@ -13,7 +13,7 @@ public class Main1 {
 
         freq.put('a', freq.getOrDefault('a', 0) + 3);
         System.out.println(freq);
-        freq.put('a', freq.getOrDefault('a', 0) + 3);
+        freq.put('d', freq.getOrDefault('d', 0) + 2);
         System.out.println(freq);
     }
 }
