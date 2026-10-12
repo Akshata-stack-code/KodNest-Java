@@ -24,5 +24,8 @@ public class StudentApp {
         s1.display();
         s2.display();
         s3.display();
+        System.out.println(s1.equals(s2));
+        System.out.println(s1.equals(s3));
+        System.out.println(s2.equals(s3));
     }
 }
